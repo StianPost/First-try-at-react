@@ -1,0 +1,66 @@
+.cardTab {
+  background-color: $cardBg-color;
+  padding: 38px;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.1);
+  &__content {
+    display: flex;
+    flex-direction: row;
+  }
+  &__img {
+    height: 149px;
+    margin-right: 26px;
+  }
+  &__links {
+    color: $navText-color;
+  }
+}
+
+.cardAccordian {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__img {
+    height: 175px;
+    margin-bottom: 17.5px;
+  }
+  &__links {
+    color: $navText-color;
+  }
+}
+
+.homeIntro {
+  margin-top: 37px;
+  margin-bottom: 35px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: $text-color;
+}
+
+.nav-tabs .nav-link {
+  color: $emphasys-color;
+}
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.accordion-button::after {
+  display: none;
+}
+.accordion-button {
+  background-color: white;
+  color: $emphasys-color;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: $emphasys-color;
+  border-bottom: 1px solid $emphasys-color;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+  font-size: 1.3rem;
+  margin-left: 16.5px;
+}

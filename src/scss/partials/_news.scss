@@ -1,0 +1,43 @@
+.menu {
+  border-radius: 4px;
+  display: flex;
+  width: 210px;
+  height: 48px;
+  justify-content: space-evenly;
+  border: 1px solid $emphasys-color;
+  &__item {
+    height: 100%;
+    width: 100%;
+    &--active {
+      background-color: $emphasys-color;
+      color: $cardBg-color;
+    }
+  }
+}
+.newsH1 {
+  padding: 39px 0px;
+}
+.cardContainer {
+  padding-top: 33px;
+}
+
+.newsCard {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+  border: 0px;
+  min-width: 200px;
+  &__header {
+    color: $navText-color !important;
+  }
+}
+.btnRow__bottom {
+  margin-top: 56px;
+}
+
+@media (max-width: 450px) {
+  .newsCard {
+    margin-bottom: 50px;
+  }
+  .btnRow__bottom {
+    margin-top: 17px;
+  }
+}

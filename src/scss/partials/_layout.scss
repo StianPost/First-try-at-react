@@ -1,0 +1,30 @@
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  );
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 30px !important;
+  width: 30px !important;
+  background-color: $cardBg-color;
+  border-radius: 2px !important;
+  box-shadow: 0px 3px 6px rgb(0, 0, 0) !important;
+  border: 0px;
+  opacity: 1;
+}
+.carousel-indicators .active {
+  background-color: $emphasys-color !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}

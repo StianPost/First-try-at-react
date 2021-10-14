@@ -1,0 +1,27 @@
+.footer {
+  background-color: $cardBg-color;
+  color: $text-color;
+  margin-top: 138px;
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__left {
+    font-size: 2rem;
+    padding-top: 5px;
+    width: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    height: 165px;
+    &__left {
+      width: 100%;
+      text-align: center;
+      padding-top: 38px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.btn {
+  border: 0px;
+  &--search {
+    background-color: $emphasys-color;
+    color: $cardBg-color;
+    margin-top: 1px;
+    border-radius: 0px 4px 4px 0px;
+  }
+  &__news {
+    background-color: $cardBg-color;
+    color: $emphasys-color;
+    border: $emphasys-color 1px solid;
+    &--active {
+      background-color: $emphasys-color;
+      color: $cardBg-color;
+    }
+  }
+  &__cardNews {
+    width: 100%;
+    height: 46px;
+    color: $cardBg-color;
+    background-color: $emphasys-color;
+    border-right: $text-color 25px solid;
+    padding-left: 25px;
+  }
+  &__form {
+    width: 100%;
+    height: 58px;
+    border-radius: 4px;
+    background-color: $text-color;
+    color: $cardBg-color;
+  }
+}

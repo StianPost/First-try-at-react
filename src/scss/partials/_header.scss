@@ -1,0 +1,61 @@
+.headerBar {
+  background-color: $headerBG-color !important;
+}
+.headerSearch {
+  justify-content: space-between;
+}
+.navbar-brand {
+  color: $emphasys-color !important;
+  font-family: 'Playfair Display';
+}
+
+.navLink {
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $navText-color;
+  &--active {
+    background-color: $cardBg-color;
+  }
+  &__mobile {
+    padding: 12.5px;
+    padding-left: 25px;
+    color: $navText-color;
+    text-decoration: none;
+    &--active {
+      background-color: white;
+    }
+  }
+}
+.navbar-nav-scroll {
+  max-height: 150px !important;
+}
+
+.searchBar__header {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0px;
+}
+
+@media (max-width: 450px) {
+  .headerBar {
+    box-shadow: 0 6 12 rgba(0, 0, 0, 0.16) !important;
+    &__container {
+      padding: 0px;
+    }
+  }
+  .headerSearch {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  }
+  .navbar-brand {
+    padding-left: 0.75rem;
+  }
+  .navbar-toggler {
+    padding-right: 0.75rem;
+  }
+  .searchBar__form {
+    padding: 60px 0.75rem 43.4px;
+  }
+}
